@@ -1,0 +1,30 @@
+do not many times input name and passwd
+在提交项目代码或者拉代码的时候，git会让你输入用户名密码，解决方案：（我们公司用的是gitlab）
+执行git config --global credential.helper store命令
+git config --global credential.helper store
+
+新建一个本地分支：
+
+$ git checkout -b dbg_lichen_star
+git checkout -b study
+
+查看一下现在的分支状态:
+
+$ git branch
+* dbg_lichen_star
+  master
+  release
+星号(*)表示当前所在分支。现在的状态是成功创建的新的分支并且已经切换到新分支上。
+
+把新建的本地分支push到远程服务器，远程分支与本地分支同名（当然可以随意起名）：
+
+$ git push origin dbg_lichen_star:dbg_lichen_star
+git push origin study:study
+remote study 
+使用git branch -a查看所有分支，会看到remotes/origin/dbg_lichen_star这个远程分支，说明新建远程分支成功。
+
+
+删除远程分支
+我比较喜欢的简单方式，推送一个空分支到远程分支，其实就相当于删除远程分支：
+
+$ git push origin :dbg_lichen_star
