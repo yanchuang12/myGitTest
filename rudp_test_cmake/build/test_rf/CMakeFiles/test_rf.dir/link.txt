@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/test_rf.dir/test_rf.cpp.o  -o test_rf -rdynamic ../rudp/librudp.a -lpthread 

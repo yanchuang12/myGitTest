@@ -1,3 +1,0 @@
-/home/yan/rudp_test_cmake/build/rudp/CMakeFiles/librudp.dir
-/home/yan/rudp_test_cmake/build/test_rf/CMakeFiles/test_rf.dir
-/home/yan/rudp_test_cmake/build/test_sf/CMakeFiles/test_sf.dir
