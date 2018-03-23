@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(RUDP)
+add_subdirectory(rudp)
+add_subdirectory(test_sf)
+add_subdirectory(test_rf)
